@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  margin-left: 30px;
+}
+
+.first_nav img:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background: url(./components/assets/onclick.jpg);
+}
+
+.one {
+  margin-top: 15px;
+  margin-left: 5em;
+  font-size: 2.1em;
+  color: white;
+}
+
+.one:hover {
+  color: peru;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn {
+  margin-top: -78px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 75%;
+}
+
+.btn a {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+}
+
+.btn a:hover {
+  color: peru;
+  border-bottom: solid 5px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn a:active {
+  border-bottom: 5px solid green;
+  color: blue;
+}
+
+.main {
+  padding: 50px;
+  /* margin: 100px; */
+  height: 84vh;
+  width: 88em;
+  background-color: black;
+  border: none;
+  background: url(./components/assets/mainn.jpg);
+}
+
+.main:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.one_one {
+  position: relative;
+}
+
+.one_one .size {
+  position: absolute;
+  left: -40px;
+}
+
+.one_one .size .image_one {
+  position: absolute;
+  width: 70%;
+  height: 55px;
+  border-radius: 50%;
+  top: -545px;
+  left: -10px;
+}
+
+.one_one .size .image_two {
+  width: 80%;
+  height: 55px;
+  border-radius: 50%;
+  margin-top: 55px;
+}
+
+.one_one .size .image_1 {
+  position: absolute;
+  width: 70%;
+  height: 50px;
+  border-radius: 50%;
+  top: 61px;
+  left: 1280px;
+}
+
+.one_one .size .image_2 {
+  position: absolute;
+  width: 70%;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  top: -550px;
+  left: 1280px;
+}
+
+.one_one .size img:hover {
+  border-radius: 8px;
+  border: 5px solid green;
+}
+
+.one_one .size img:active {
+  border: 5px solid purple;
+}
+
+.habitat {
+  position: relative;
+}
+
+.habitat .habit {
+  position: absolute;
+  width: 20px;
+  color: white;
+  top: 100px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.habitat .habit h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.habitat .habit:hover {
+  color: skyblue;
+}
+
+.creative {
+  position: relative;
+}
+
+.creative .mid {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 5px;
+  top: 280px;
+  position: absolute;
+  color: white;
+  width: 35%;
+  padding: 20px;
+}
+
+.creative .mid h1 {
+  margin-left: 100px;
+}
+
+.creative .mid h3 {
+  margin-left: 50px;
+}
+
+.creative .mid p {
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.creative .mid:hover {
+  color: peru;
+}
+
+.same {
+  width: 700px;
+  background-color: gray;
+}
+
+.same .tech_creek {
+  position: relative;
+}
+
+.same .tech_creek .boto {
+  position: absolute;
+  color: white;
+  width: 58%;
+  right: -750px;
+  padding: 20px;
+  top: 410px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.same .tech_creek .boto p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.same .tech_creek .boto:hover {
+  color: peru;
+}
+
+.same .last {
+  position: relative;
+}
+
+.same .last .las {
+  position: absolute;
+  color: white;
+  width: 35%;
+  padding: 30px;
+  left: -70px;
+  top: 495px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.same .last .las p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.same .last .las:hover {
+  color: peru;
+}
+/*# sourceMappingURL=index.css.map */

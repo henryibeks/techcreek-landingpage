@@ -1,0 +1,163 @@
+img{
+  width: 100px;
+  height: 100px;;
+}
+.bodyy{
+  position: fixed;
+width: 2000px;
+height: 2000px;;
+
+background: url(./components/assets/img3.jpeg) ;
+}
+.navbar{
+  background-color: aquamarine;
+}
+.center{
+
+  /* background: url(./components/assets/bg4.jpg); */
+   width: 600px;
+  height: 300px;; 
+  border-radius: 30px;;
+  justify-content: center;
+  justify-items: center;
+ margin-left: 50px;
+ background-color: blue;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 100px;
+
+  /* border: 5px solid #FD8061;  */
+}
+
+
+
+.head{
+  color: white;
+  padding: 1px;
+  margin-left: 250px;
+  margin-top: 300px;
+  font-weight: bold;
+  text-decoration-style: solid;
+  
+
+}
+.parag{
+  color: white;
+  padding: 1px;
+  font-size: 25px;;
+  margin-left: 100px;
+  margin-top: 5px;
+  
+ 
+}
+.bodyy 
+.logoclass{
+  position: absolute;
+width: 120px;
+height: 62px;
+left: 44px;
+top: 24px;
+
+}
+.bottomV{
+  position: absolute;
+width: 491.83px;
+height: 560.19px;
+left: -250.4px;
+top: 100px;
+z-index: -1;
+
+/* yellow/yellow50 */
+background-color: blue;
+/* background: #FD8061; */
+transform: rotate(25.13deg);
+border-radius: 120px;
+}
+
+.navbar{
+  display: flex;
+}
+.ul1{
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 1200px;
+  padding-top: -200px;;
+
+
+}
+.li1{
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  color: blue;
+
+}
+.li1:hover{
+  color: red;
+  border-bottom: 1px solid blue;
+  border-radius: 5px;
+  border-top:1px  blue;
+ 
+  
+}
+
+.habitat{
+  background: url(../src/components/assets/bg4.jpg);
+  width: 200px;;
+}
+
+ .location_details {
+        text-align: center;
+        /* inline-size: 500px; */
+        color:white;
+        background-color: blue;
+        font-size: 14px;
+          margin-top: 150px;
+          margin-left: 5px;
+          border-radius: 10px;
+          border-top-right-radius: 100px;
+          padding: 2px;
+          width: 500px;
+
+      }
+      .locate{
+        height: 20px;
+        width: 20px;
+      }
+      .ONGOING{
+        width: 400px;
+        height: 60px;
+        
+        margin-left: 50px;
+        margin-top: 9px;
+      }
+      /* .ONGOING:hover{
+       
+  width: 420px;
+  height: 100px;
+  background-color: blue;
+      } */
+
+
+      /* .rightside{ */
+       /* background: url(../src/components/assets/img3.jpeg); */
+       /* margin-top: 90px;
+       margin-left: 00px;
+       background-color: black;
+       
+       width: 500px;
+       height: 500px;
+       display: inherit;
+       */
+      /* } */
+/*       
+      .rightpic{
+        width: 1000px;
+      }
+      .apply{
+        background-color:red;
+      } */
